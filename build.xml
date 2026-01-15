@@ -1,0 +1,24 @@
+<project name="OSPROJECT" default="run" basedir=".">
+
+    <!-- directories -->
+    <property name="src.dir" value="src/main/java"/>
+    <property name="build.dir" value="build"/>
+
+    <!-- compile java files -->
+    <target name="compile">
+        <mkdir dir="${build.dir}"/>
+        <javac srcdir="${src.dir}"
+               destdir="${build.dir}"
+               includeantruntime="false"/>
+    </target>
+
+    <!-- run application -->
+    <target name="run" depends="compile">
+        <java classname="com.mycompany.osproject.OSPROJECT" fork="true">
+            <classpath>
+                <pathelement path="${build.dir}"/>
+            </classpath>
+        </java>
+    </target>
+
+</project>
