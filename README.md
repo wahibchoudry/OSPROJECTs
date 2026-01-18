@@ -1,9 +1,3 @@
-Awesome, Wahib — here’s a **clean, professional, ready-to-paste `README.md`** for your project that you can use for GitHub and presentation.
-
-You can copy this **as-is** 👇
-
----
-
 # 📌 Java Swing Desktop Application
 
 ## 📖 Overview
