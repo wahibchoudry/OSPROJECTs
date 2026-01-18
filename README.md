@@ -141,7 +141,6 @@ This repository includes:
 ## 👨‍💻 Author
 
 **Wahib Choudry**
-
 ---
 
 ## 📜 License
